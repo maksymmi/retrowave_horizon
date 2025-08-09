@@ -12,3 +12,5 @@ A retrowave linux rice | Hyprland
 ---
 
 ![Screenshot 3](screenshots/3.png)
+
+---
