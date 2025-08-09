@@ -1,0 +1,125 @@
+* {
+  font-family: Maple Mono;
+  border-radius: 8;
+  font-size: 14px;
+  padding: 0px;
+  background: transparent;
+}
+
+window#waybar {
+  background-image: linear-gradient(to bottom, #161212 100%);
+  border-radius: 0px;
+  padding: 0px;
+  border-style: none;
+}
+
+#battery,
+#network,
+#clock,
+#tray,
+#workspaces,
+#cpu,
+#memory,
+#temperature,
+#window,
+#backlight,
+#language,
+#custom-power,
+#pulseaudio {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 6px;
+  margin-right: 0px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #d8424b;
+
+  border-style: none;
+  transition-duration: 120ms;
+}
+
+#temperature:hover,
+#memory:hover,
+#cpu:hover, 
+#network:hover,
+#window:hover,
+#backlight:hover,
+#language:hover,
+#clock:hover,
+#battery:hover, 
+#custom-power:hover {
+  background-image: linear-gradient(to bottom, #d8424b 100%);
+  color: #141216;
+}
+
+#clock {
+  margin-right: 0px;
+}
+
+#pulseaudio:hover {
+  background-image: linear-gradient(to bottom, #d8424b 100%);
+  color: #141216;
+  transition-duration: 120ms;
+}
+
+#tray menu {
+  background-color: #141216;
+  color: #d8424b;
+  padding: 4px;
+}
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+
+  margin: 3px;
+  color: #d8424b;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #27232b;
+}
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #d8424b;
+  font-weight: bold;
+}
+
+#workspaces button {
+  transition-duration: 100ms;
+  all: initial;
+  min-width: 0;
+  font-weight: bold;
+  color: #4a6a7f;
+  margin-right: 0.2cm;
+  margin-left: 0.2cm;
+}
+
+#workspaces button:hover {
+  transition-duration: 120ms;
+  color: #b8353d;
+}
+#workspaces button.focused {
+  color: #d8424b;
+  font-weight: bold;
+}
+#workspaces button.active {
+  color: #d8424b;
+  font-weight: bold;
+}
+#workspaces button.urgent {
+  color: #fcb167;
+}
+
+#battery {
+  background-color: #222222;
+  color: #d8424b;
+}
+
+#battery.warning,
+#battery.critical{
+  color: #1d2021;
+  background-color: #fc4649;
+}
+
+#custom-power {
+  margin-right: 5px;
+  }
+
