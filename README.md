@@ -1,4 +1,4 @@
-# retrowave_horizon
+# retrowave-horizon
 A retrowave linux rice | Hyprland
 
 ---
