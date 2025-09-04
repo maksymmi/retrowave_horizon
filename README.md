@@ -15,5 +15,7 @@ A retrowave linux rice | Hyprland
 
 ---
 
+# Themes
+
 - [Hyprcursor theme](https://github.com/ndom91/rose-pine-hyprcursor)
 - [GTK theme](https://github.com/rtlewis1/GTK/tree/Material-Black-Colors-Desktop/Material-Black-Cherry)
